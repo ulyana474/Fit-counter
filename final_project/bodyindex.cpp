@@ -1,5 +1,6 @@
 #include "bodyindex.h"
 #include <exception>
+#include <QMessageBox>
 
 BodyIndex::BodyIndex(float height, float weight)
     : p_height(height)
@@ -14,6 +15,6 @@ BodyIndex::BodyIndex(float height, float weight)
 }
 
 float BodyIndex::getBMI() {
-    float result_BMI = p_weight / (p_height * p_height);
+    float result_BMI = p_weight / (p_height * p_height) * 10000;
     return result_BMI;
 }

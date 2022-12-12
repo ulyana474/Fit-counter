@@ -19,67 +19,137 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>120</x>
-     <y>63</y>
-     <width>161</width>
+     <x>140</x>
+     <y>70</y>
+     <width>251</width>
      <height>41</height>
     </rect>
    </property>
    <property name="font">
     <font>
      <family>Segoe Print</family>
-     <pointsize>18</pointsize>
+     <pointsize>21</pointsize>
+     <bold>true</bold>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: #7dd87d;</string>
+    <string notr="true">color: #7dd87d</string>
    </property>
    <property name="text">
-    <string>result:</string>
+    <string>Your result:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
    </property>
   </widget>
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>180</x>
-     <y>120</y>
-     <width>171</width>
-     <height>31</height>
+     <x>130</x>
+     <y>180</y>
+     <width>271</width>
+     <height>71</height>
     </rect>
    </property>
    <property name="font">
     <font>
      <family>Segoe Print</family>
-     <pointsize>18</pointsize>
+     <pointsize>20</pointsize>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: #7dd87d;</string>
+    <string notr="true">color: #7dd87d;
+border-radius: 30;
+border: 2px solid #5b446a
+
+</string>
    </property>
    <property name="text">
     <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>480</y>
+     <width>380</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Print</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: #7dd87d;
+color: #5b446a;
+border-radius: 30;
+border: 2px sold #5b446a;
+}
+QPushButton:pressed{
+background-color: #5b446a;
+color: #7dd87d;
+}</string>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>270</y>
+     <width>311</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Print</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #5b446a</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
    </property>
   </widget>
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>180</x>
-     <y>180</y>
-     <width>71</width>
-     <height>24</height>
+     <x>40</x>
+     <y>350</y>
+     <width>451</width>
+     <height>51</height>
     </rect>
    </property>
    <property name="font">
     <font>
      <family>Segoe Print</family>
-     <pointsize>18</pointsize>
+     <pointsize>14</pointsize>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: #7dd87d;</string>
+    <string notr="true">color: #5b446a</string>
    </property>
    <property name="text">
     <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
    </property>
   </widget>
  </widget>
